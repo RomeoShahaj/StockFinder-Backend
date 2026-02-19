@@ -118,6 +118,3 @@
 /Users/romeoshahaj/Documents/Portofolio/NET/Stock_Data/Backend/api/obj/Debug/net8.0/api.pdb
 /Users/romeoshahaj/Documents/Portofolio/NET/Stock_Data/Backend/api/obj/Debug/net8.0/api.genruntimeconfig.cache
 /Users/romeoshahaj/Documents/Portofolio/NET/Stock_Data/Backend/api/obj/Debug/net8.0/ref/api.dll
-/Users/romeoshahaj/Documents/Portofolio/NET/Stock_Data/Backend/api/bin/Debug/net8.0/api.staticwebassets.endpoints.json
-/Users/romeoshahaj/Documents/Portofolio/NET/Stock_Data/Backend/api/obj/Debug/net8.0/staticwebassets.build.endpoints.json
-/Users/romeoshahaj/Documents/Portofolio/NET/Stock_Data/Backend/api/obj/Debug/net8.0/staticwebassets/msbuild.api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
