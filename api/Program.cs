@@ -12,8 +12,10 @@ using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.WebHost.UseUrls("http://0.0.0.0:8080");
-
+if (builder.Environment.IsProduction())
+{
+    builder.WebHost.UseUrls("http://0.0.0.0:8080");
+}
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
