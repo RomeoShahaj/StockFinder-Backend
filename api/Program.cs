@@ -35,7 +35,6 @@ builder.Services.AddSwaggerGen(option =>
     });
     option.AddSecurityRequirement(new OpenApiSecurityRequirement
     { 
-        
         {
             new OpenApiSecurityScheme
             {
