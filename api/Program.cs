@@ -124,7 +124,7 @@ app.UseCors(policy =>
         .WithOrigins(
             "https://workwithromeo.com",
             "https://www.workwithromeo.com",
-            "https://stocksfinder.vercel.app/"
+            "https://stockfinder.vercel.app"
         )
         .AllowAnyHeader()
         .AllowAnyMethod()
