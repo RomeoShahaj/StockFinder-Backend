@@ -119,12 +119,17 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseCors(x => x
-    .AllowAnyMethod()
-    .AllowAnyHeader()
-    .AllowCredentials()
-    //./WithOrigins("https://localhost:44351"))
-    .SetIsOriginAllowed(origin => true));
+app.UseCors(policy =>
+    policy
+        .WithOrigins(
+            "https://workwithromeo.com",
+            "https://www.workwithromeo.com",
+            "https://stocksfinder.vercel.app/"
+        )
+        .AllowAnyHeader()
+        .AllowAnyMethod()
+        .AllowCredentials()
+);
 
 app.UseAuthentication();
 app.UseAuthorization();
